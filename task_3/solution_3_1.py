@@ -1,4 +1,5 @@
-# your code here
-user_input = input()
-# your code here
-print(alphabet)
+alphabet='abcdefghijklmnopqrstuvwxyz'
+word=input()
+for i in range(26):
+	if alphabet[i] in word:
+		print(alphabet[i])
