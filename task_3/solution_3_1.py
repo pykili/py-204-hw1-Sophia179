@@ -1,4 +1,7 @@
-# your code here
-user_input = input()
-# your code here
-print(alphabet)
+alphabet='abcdefghijklmnopqrstuvwxyz'
+itog=''
+word=input()
+for i in range(26):
+	if alphabet[i] in word:
+		itog=itog+alphabet[i]
+print(itog)
